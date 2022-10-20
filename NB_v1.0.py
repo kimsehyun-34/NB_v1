@@ -10,7 +10,7 @@ mi=input("다시 한번 말하는데 여러분 책임입니다..\n")
 
 nbc = input('\033[0m'+ "파일이름(확장자 포함 ex: abc.txt): ")
 inp = int(input("초입력: "))
-si=input("시작버튼\n아무버튼이나 눌러주세요")
+si=input("시작버튼\n Enter버튼을 눌러주세요")
 
 print("파일 찾는중..")
 def findfile(name, path):
